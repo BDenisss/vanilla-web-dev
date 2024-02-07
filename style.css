@@ -95,6 +95,7 @@ header .text {
     text-shadow:  0 0 5px rgba(0, 0, 0, 0.5);
     height: 80vh;
     width: 100%;
+    gap: 12px;
 }
 
 header .text h1 {
@@ -108,8 +109,20 @@ header .text h2 {
     
 }
 
-header .text hr {
+header .text a {
+    padding: 20px;
+    margin: 0 24px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
     border: 1px solid white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+header .text a:hover {
+    background-color: white;
+    color: black;
 }
 
 .section-2 {
